@@ -1,0 +1,123 @@
+/* ===== CSS RESET / NORMALIZE ===== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  
+   letter-spacing: 0;
+  box-sizing: border-box;
+
+}
+
+
+fieldset {
+  border: none;
+}
+
+legend {
+  border: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  border: none;
+    font: inherit;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: none;
+  height: auto;
+  
+}
+
+
+
+:root {
+  /* === Primary Colors === */
+  --color-orange: hsl(35, 77%, 62%);
+  --color-red: hsl(5, 85%, 63%);
+
+  /* === Neutral Colors === */
+  --color-white: hsl(36, 100%, 99%);
+  --color-grey-light: hsl(233, 8%, 79%);
+  --color-grey-dark: hsl(236, 13%, 42%);
+  --color-grey-very-dark: hsl(240, 100%, 5%);
+
+  /* === Typography === */
+  --font-size-body: 15px;
+}
+
+
+
+/* === Text Presets === */
+
+/* Preset 1: 56px, Extra Bold */
+.text-preset-1 {
+    font-weight: 800;
+  font-size: 56px;
+  line-height: 56px;
+}
+
+/* Preset 2: 40px, Extra Bold */
+.text-preset-2 {
+    font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+/* Preset 3: 32px, Bold */
+.text-preset-3 {
+   font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+/* Preset 4: 20px, Extra Bold */
+.text-preset-4 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* Preset 5: 18px, Extra Bold */
+.text-preset-5 {
+   font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -1px;
+}
+
+/* Preset 6: 15px, Regular */
+.text-preset-6 {
+    font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+/* Preset 7: 14px, Bold */
+.text-preset-7 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 4.38px;
+}
